@@ -87,7 +87,7 @@ The script reads MATLAB `.mat` files, one per subject/session/condition, from
 > The forward model `H` and the preprocessing (resampling, band-pass, CAR) are
 > produced by a separate forward-model script; this repository covers the
 > inversion step. A minimal synthetic example is provided in
-> [`examples/demo.ipynb`](examples/demo.ipynb) so the pipeline can be run without
+> [`demo.ipynb`](demo.ipynb) so the pipeline can be run without
 > the original dataset.
 
 ---
