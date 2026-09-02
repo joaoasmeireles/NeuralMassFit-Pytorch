@@ -10,7 +10,8 @@
 A PyTorch, GPU-accelerated pipeline that fits a mesoscale neural-mass model to
 source-space EEG, one sliding window at a time, and extracts per-window
 effective-connectivity matrices and dynamical summaries. It was developed for
-the study *[YOUR PAPER TITLE]* ([YOUR VENUE/YEAR]) and is released to support
+the study *Modeling Brain Dynamics for Interpretable
+EEG-Based Mental Workload Classification* for the XXX Congresso Brasileiro de Engenharia Biomédica (CBEB2026) and is released to support
 reproducibility.
 
 ---
@@ -23,14 +24,14 @@ License (Copyright (c) 2024 Matthew Singh). In accordance with that license, the
 original copyright notice and permission notice are retained in [`LICENSE`](LICENSE).
 
 Our contribution is a source-space adaptation with GPU execution and a set of
-stability/regularization changes ("anti-hub / anti-idiosyncrasy" hardening);
+stability/regularization changes;
 these are documented in the header of `fit_mindy_pytorch_sourceSpace.py`. This
 work has **not** been reviewed or endorsed by the original authors.
 
 If you use this code, please cite both:
 
-- **This work:** [YOUR CITATION]
-- **The original method:** M. Singh et al., *[MINDy / BPKF reference]*.
+- **This work:** [ ]
+- **The original method:** Singh, M.F., Braver, T.S., Cole, M. and Ching, S., 2025. Precision data-driven modeling of cortical dynamics reveals person-specific mechanisms underpinning brain electrophysiology. Proceedings of the National Academy of Sciences, 122(3), p.e2409577121.
 
 ---
 
