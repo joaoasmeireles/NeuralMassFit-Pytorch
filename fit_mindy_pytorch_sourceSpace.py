@@ -65,9 +65,9 @@ torch.backends.cudnn.benchmark = True
 torch.set_float32_matmul_precision('high')
 
 if sys.platform == "linux":
-    BASE_DIR = Path("/mnt/c/Users/User/OneDrive/Faculdade/Mestrado/COG-BCI DualMindy")
+    BASE_DIR = Path("YOUR PATH")
 else:
-    BASE_DIR = Path(r"C:\Users\User\OneDrive\Faculdade\Mestrado\COG-BCI DualMindy")
+    BASE_DIR = Path(r"YOUR PATH")
 DATA_ROOT = BASE_DIR / "MINDy_source"
 OUT_ROOT  = BASE_DIR / "results_source"
 
